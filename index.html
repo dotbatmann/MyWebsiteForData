@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>My First Site</title>
+  <!-- Supabase JS library -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/supabase.min.js"></script>
+  <!-- Your app.js script -->
+  <script src="app.js" defer></script>
 </head>
 <body>
   <h1>Hello World</h1>
   <p>This is my website.</p>
+
+  <!-- File input and upload button -->
+  <input type="file" id="fileInput">
+  <button id="uploadBtn">Upload File</button>
 </body>
 </html>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/supabase.min.js"></script>
-<script src="app.js"></script>
-
